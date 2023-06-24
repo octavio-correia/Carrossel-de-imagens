@@ -1,26 +1,27 @@
-h1{
+h1 {
     display: flex;
     justify-content: center;
     font-size: 50px;
 }
 
 /* Arrumando os botões */
-button{
+button {
     height: 60px;
     width: 60px;
     border-radius: 180px;
 }
 
-.esquerda{
+.esquerda {
     margin-left: 100px;
 }
 
-.direita{
+.direita {
     margin-right: 100px;
 }
+
 /* Arrumando os botões */
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,18 +30,23 @@ button{
 .container {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    transform: translateX(0); /* utilizado para mover o objeto horizontalmente*/
+    transform: translateX(0);
+    /* utilizado para mover o objeto horizontalmente*/
 }
 
-.carrossel{
+.carrossel {
     box-shadow: 2px 2px 4px black;
     overflow: hidden;
     height: 300px;
     width: 300px;
 }
 
-img{
+img {
     object-fit: cover;
     width: 300px;
     height: 300px;
+}
+
+.texto {
+    text-align: center;
 }

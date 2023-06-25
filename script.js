@@ -20,11 +20,3 @@ function tras() {
 
     imgs.style.transform = `translateX(${-idx *400}px)`
 }
-
-
-var caixatexto = document.getElementById('caixatexto')
-var textos = document.getElementsByClassName('text-hidden')
-
-function mudatexto(){
-    caixatexto.textContent = textos[idx].textContent
-}

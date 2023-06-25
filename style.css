@@ -42,7 +42,7 @@ button {
 }
 
 .carrossel {
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 2px 2px 4px rgb(68, 0, 0);
     overflow: hidden;
     height: 400px;
@@ -56,6 +56,5 @@ img {
     height: 400px;
 }
 
-.texto-hidden{
-    display: none;
-}
+
+/* TEXTOS */

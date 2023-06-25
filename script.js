@@ -9,7 +9,7 @@ function frente() {
         idx = 0
     }
 
-    imgs.style.transform = `translateX(${-idx * 300}px)`
+    imgs.style.transform = `translateX(${-idx *400}px)`
 }
 
 function tras() {
@@ -18,9 +18,13 @@ function tras() {
         idx = img.length - 1
     }
 
-    imgs.style.transform = `translateX(${-idx * 300}px)`
+    imgs.style.transform = `translateX(${-idx *400}px)`
 }
 
+var caixatexto = document.getElementById('containertxt')
+var textos = document.getElementsByClassName('text-hidden')
 
-const txts = document.getElementById("texto")
-const txt = document.querySelectorAll('#texto div')
+function mudatexto(){
+    caixatexto.textContent = textos[idx].textContent
+
+}

@@ -20,3 +20,19 @@ function tras() {
 
     imgs.style.transform = `translateX(${-idx *400}px)`
 }
+
+//TEXTOS
+
+const txts = document.getElementById("txt")
+const txt = document.querySelectorAll("#txt div")
+
+var idx = 0
+
+function frentetxt() {
+
+    txts.style.transform = `translateX(${-idx *700}px)`
+}
+
+function trastxt() {
+    txts.style.transform = `translateX(${-idx *700}px)`
+}

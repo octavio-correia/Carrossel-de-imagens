@@ -33,14 +33,7 @@ button {
     justify-content: center;
     align-items: center;
 }
-
-.container {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
-    /* utilizado para mover o objeto horizontalmente*/
-}
-
+ 
 .carrossel {
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgb(68, 0, 0);
@@ -50,6 +43,14 @@ button {
     
 }
 
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    /* utilizado para mover o objeto horizontalmente*/
+}
+
+
 img {
     object-fit: cover;
     width: 400px;
@@ -58,3 +59,30 @@ img {
 
 
 /* TEXTOS */
+
+.menuTexto {
+    display: flex;
+    justify-content: center;
+}
+
+.carrosselTexto {
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(68, 0, 0);
+    overflow: hidden;
+    height: 200px;
+    width: 700px;    
+}
+
+.containerTexto {
+    display: flex;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    object-fit: cover;
+    /* utilizado para mover o objeto horizontalmente*/
+}
+
+#txt div {
+    flex: 0 0 700px;
+    height: 200px;
+  }

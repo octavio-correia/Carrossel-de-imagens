@@ -130,13 +130,13 @@ img {
     /* TEXTOS */
 
     .carrosselTexto {
-        height: 100px;
-        width: 350px;
+        height: 250px;
+        width: 330px;
     }
 
     #txt div {
-        flex: 0 0 350px;
-        height: 100px;
+        flex: 0 0 330px;
+        height: 250px;
     }
 
 }

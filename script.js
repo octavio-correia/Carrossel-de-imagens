@@ -68,11 +68,11 @@ window.addEventListener('resize', function() {
 
       function frentetxt() {
 
-        txts.style.transform = `translateX(${-idx *700}px)`
+        txts.style.transform = `translateX(${-idx *350}px)`
     }
     
     function trastxt() {
-        txts.style.transform = `translateX(${-idx *700}px)`
+        txts.style.transform = `translateX(${-idx *350}px)`
     }
 
       

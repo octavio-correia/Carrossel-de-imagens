@@ -90,6 +90,31 @@ img {
   /* Tela de celular */
 @media screen and (max-width:600px) {
 
+    h1 {
+        margin-top: 50px;
+        text-shadow: 1px 1px 3px white;
+        font-family: 'Vampiro One', cursive;
+        color: rgb(68, 0, 0);
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+    }
+
+    .carrossel {
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px rgb(68, 0, 0);
+        overflow: hidden;
+        height: 200px;
+        width: 200px;
+        
+    }
+
+    img {
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+    }
+
     .carrosselTexto {
         height: 100px;
         width: 350px;    

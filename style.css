@@ -26,21 +26,19 @@ button {
 }
 
 
-/* Arrumando os botões */
-
 .menu {
     display: flex;
     justify-content: center;
     align-items: center;
 }
- 
+
 .carrossel {
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgb(68, 0, 0);
     overflow: hidden;
     height: 400px;
     width: 400px;
-    
+
 }
 
 .container {
@@ -70,7 +68,7 @@ img {
     box-shadow: 2px 2px 4px rgb(68, 0, 0);
     overflow: hidden;
     height: 200px;
-    width: 700px;    
+    width: 700px;
 }
 
 .containerTexto {
@@ -85,11 +83,12 @@ img {
 #txt div {
     flex: 0 0 700px;
     height: 200px;
-  }
+}
 
-  /* Tela de celular */
+/* Tela de celular */
 @media screen and (max-width:600px) {
 
+    /* IMAGENS */
     h1 {
         margin-top: 50px;
         text-shadow: 1px 1px 3px white;
@@ -106,23 +105,38 @@ img {
         overflow: hidden;
         height: 200px;
         width: 200px;
-        
+
     }
 
     img {
         object-fit: cover;
         width: 200px;
         height: 200px;
+
     }
+
+    /* Arrumando os botões */
+    button {
+        box-shadow: 1px 1px 1px white;
+        border: solid 2px rgb(68, 0, 0);
+        color: white;
+        background-color: black;
+        height: 40px;
+        width: 40px;
+        border-radius: 180px;
+        margin: 10px;
+    }
+
+    /* TEXTOS */
 
     .carrosselTexto {
         height: 100px;
-        width: 350px;    
+        width: 350px;
     }
 
     #txt div {
         flex: 0 0 350px;
         height: 100px;
-      }
-    
+    }
+
 }

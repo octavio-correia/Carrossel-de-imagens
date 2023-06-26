@@ -86,3 +86,18 @@ img {
     flex: 0 0 700px;
     height: 200px;
   }
+
+  /* Tela de celular */
+@media screen and (max-width:600px) {
+
+    .carrosselTexto {
+        height: 100px;
+        width: 350px;    
+    }
+
+    #txt div {
+        flex: 0 0 350px;
+        height: 100px;
+      }
+    
+}

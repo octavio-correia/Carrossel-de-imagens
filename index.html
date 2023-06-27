@@ -9,7 +9,7 @@
     <title>Camarilla</title>
 
     <link rel="stylesheet" href="style.css">
-    
+
     <script src="script.js" defer></script>
 
     <!--FONTE VAMPIRO-->
@@ -20,85 +20,86 @@
 </head>
 
 <body>
-    <h1>A CAMARILLA</h1>
-    <div class="menu">
+    <div class="esconder">
+        <h1>A CAMARILLA</h1>
+        <div class="menu">
+            <button class="esquerda" onclick="tras(); trastxt()"><strong>
+                    < </strong></button>
 
-        <button class="esquerda" onclick="tras(); trastxt()"><strong>
-                < </strong></button>
-
-        <div class="carrossel">
-            <div class="container" id="img">
-                <img src="brujah.png" alt="Brujah">
-                <img src="gangrel.png" alt="Gangrel">
-                <img src="malkaviano.png" alt="Malkaviano">
-                <img src="nosferatu.png" alt="Nosferatu">
-                <img src="toreador.png" alt="Toreador">
-                <img src="tremere.png" alt="Tremere">
-                <img src="ventrue.png" alt="Ventrue">
+                    <button class="esquerdaR" onclick="trasR(); trastxtR()"><strong>
+                        < </strong></button>
+            <div class="carrossel">
+                <div class="container" id="img">
+                    <img src="brujah.png" alt="Brujah">
+                    <img src="gangrel.png" alt="Gangrel">
+                    <img src="malkaviano.png" alt="Malkaviano">
+                    <img src="nosferatu.png" alt="Nosferatu">
+                    <img src="toreador.png" alt="Toreador">
+                    <img src="tremere.png" alt="Tremere">
+                    <img src="ventrue.png" alt="Ventrue">
+                </div>
             </div>
+            <button class="direita" onclick="frente(); frentetxt()"><strong>></strong></button>
+            <button class="direitaR" onclick=" frenteR(); frentetxtR()"><strong>></strong></button>
         </div>
-
-        <button class="direita" onclick="frente(); frentetxt()"><strong>></strong></button>
-
-    </div>
-
-    <div class="menuTexto">
-        <div class="carrosselTexto">
-            <div class="containerTexto" id="txt">
-                <div>
-                    <h2>BRUJAH</h2>
-                    <p>Os Brujah são um clã de radicais e encrenqueiros, Abraçando aqueles dispostos a colocar os outros
-                        nos lugares deles se isso for necessário. A maioria se vê como guerreiros por uma causa, e esses
-                        Rebeldes são guiados por suas paixões, força e dedicação aos seus ideais – sejam lá quais forem.
-                    </p>
-                </div>
-                <div>
-                    <h2>GANGREL</h2>
-                    <p>Mais próximos das feras que outros vampiros, os Gangrel se consideram o ápice entre os
-                        predadores. Essas Feras caçam nos ermos tão facilmente quanto na selva urbana, e nenhum outro clã de vampiros se compara à sua habilidade de resistir, sobreviver e prosperar em qualquer ambiente. Altamente territoriais, suas habilidades metamórficas conseguem fazer os próprios não vivos hesitarem.</p>
-                </div>
-                <div>
-                    <h2>MALKAVIANO</h2>
-                    <p>Ridicularizados como Lunáticos pelos outros vampiros, o Sangue dos Malkavianos permite que eles
-                        percebam e prevejam verdades escondidas dos outros. Como os “sábios loucos” da poesia, suas
-                        perspectivas fraturadas vêm de enxergarem muito do mundo ao mesmo tempo, de entender
-                        profundamente
-                        demais e de sentir emoções que são simplesmente muito fortes para aguentar.</p>
-                </div>
-                <div>
-                    <h2>NOSFERATU</h2>
-                    <p>Os Nosferatu carregam sua maldição em seu exterior. Com seus corpos horrivelmente distorcidos e
-                        deformados pelo Abraço, eles espreitam pelos cantos da maioria das cidades, agindo como espiões
-                        e
-                        negociantes de informação. Usando animais e sua própria capacidade sobrenatural de se ocultarem,
-                        nada escapa aos olhos dos assim chamados “Ratos de Esgoto”.</p>
-                </div>
-                <div>
-                    <h2>TOREADOR</h2>
-                    <p>Conhecidos por sua natureza sedutora, comportamento envolvente e graça eloquente ao ponto da
-                        obsessão, vampiros Toreador Abraçam artistas e amantes para suas fileiras, eternamente tentando
-                        mexer com seus próprios corações mortos. Sobrenaturalmente ágeis e charmosas, as Divas estão
-                        sempre
-                        à procura da próxima emoção, deixando um rastro de amantes e vítimas descartadas em seu caminho.
-                    </p>
-                </div>
-                <div>
-                    <h2>TREMERE</h2>
-                    <p>O arcano Clã Tremere foi uma casa de magos mortais que buscava a imortalidade, mas que encontrou
-                        apenas a não vida. Como vampiros, eles aperfeiçoaram as formas de dobrar o Sangue à suas
-                        vontades,
-                        empregando sua mágica para dominar e enfeitiçar tanto o mundo mortal quanto o vampírico. Seus
-                        poderes os tornam valiosos, mas poucos vampiros confiam em seus modos manipuladores.</p>
-                </div>
-                <div>
-                    <h2>VENTRUE</h2>
-                    <p>Os Ventrue não são chamados de Clã dos Reis por nada. Cuidadosamente escolhendo sua progênie de
-                        que
-                        tenham familiaridade com o poder, a riqueza e a influência, os Ventrue se apresentam como
-                        aristocratas do mundo vampírico. É esperado que seus membros assumam o comando sempre que
-                        possível,
-                        e eles estão dispostos a enfrentar tempestades pela oportunidade de liderar a partir do front.
-                    </p>
+        <div class="menuTexto">
+            <div class="carrosselTexto">
+                <div class="containerTexto" id="txt">
+                    <div>
+                        <h2>BRUJAH</h2>
+                        <p>Os Brujah são um clã de radicais e encrenqueiros, Abraçando aqueles dispostos a colocar os outros
+                            nos lugares deles se isso for necessário. A maioria se vê como guerreiros por uma causa, e esses
+                            Rebeldes são guiados por suas paixões, força e dedicação aos seus ideais – sejam lá quais forem.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>GANGREL</h2>
+                        <p>Mais próximos das feras que outros vampiros, os Gangrel se consideram o ápice entre os
+                            predadores. Essas Feras caçam nos ermos tão facilmente quanto na selva urbana, e nenhum outro clã de vampiros se compara à sua habilidade de resistir, sobreviver e prosperar em qualquer ambiente. Altamente territoriais, suas habilidades metamórficas conseguem fazer os próprios não vivos hesitarem.</p>
+                    </div>
+                    <div>
+                        <h2>MALKAVIANO</h2>
+                        <p>Ridicularizados como Lunáticos pelos outros vampiros, o Sangue dos Malkavianos permite que eles
+                            percebam e prevejam verdades escondidas dos outros. Como os “sábios loucos” da poesia, suas
+                            perspectivas fraturadas vêm de enxergarem muito do mundo ao mesmo tempo, de entender
+                            profundamente
+                            demais e de sentir emoções que são simplesmente muito fortes para aguentar.</p>
+                    </div>
+                    <div>
+                        <h2>NOSFERATU</h2>
+                        <p>Os Nosferatu carregam sua maldição em seu exterior. Com seus corpos horrivelmente distorcidos e
+                            deformados pelo Abraço, eles espreitam pelos cantos da maioria das cidades, agindo como espiões
+                            e
+                            negociantes de informação. Usando animais e sua própria capacidade sobrenatural de se ocultarem,
+                            nada escapa aos olhos dos assim chamados “Ratos de Esgoto”.</p>
+                    </div>
+                    <div>
+                        <h2>TOREADOR</h2>
+                        <p>Conhecidos por sua natureza sedutora, comportamento envolvente e graça eloquente ao ponto da
+                            obsessão, vampiros Toreador Abraçam artistas e amantes para suas fileiras, eternamente tentando
+                            mexer com seus próprios corações mortos. Sobrenaturalmente ágeis e charmosas, as Divas estão
+                            sempre
+                            à procura da próxima emoção, deixando um rastro de amantes e vítimas descartadas em seu caminho.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>TREMERE</h2>
+                        <p>O arcano Clã Tremere foi uma casa de magos mortais que buscava a imortalidade, mas que encontrou
+                            apenas a não vida. Como vampiros, eles aperfeiçoaram as formas de dobrar o Sangue à suas
+                            vontades,
+                            empregando sua mágica para dominar e enfeitiçar tanto o mundo mortal quanto o vampírico. Seus
+                            poderes os tornam valiosos, mas poucos vampiros confiam em seus modos manipuladores.</p>
+                    </div>
+                    <div>
+                        <h2>VENTRUE</h2>
+                        <p>Os Ventrue não são chamados de Clã dos Reis por nada. Cuidadosamente escolhendo sua progênie de
+                            que
+                            tenham familiaridade com o poder, a riqueza e a influência, os Ventrue se apresentam como
+                            aristocratas do mundo vampírico. É esperado que seus membros assumam o comando sempre que
+                            possível,
+                            e eles estão dispostos a enfrentar tempestades pela oportunidade de liderar a partir do front.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

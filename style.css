@@ -25,6 +25,14 @@ button {
     margin: 100px;
 }
 
+.esquerdaR {
+    display: none;
+}
+
+.direitaR {
+    display: none;
+}
+
 
 .menu {
     display: flex;
@@ -38,7 +46,6 @@ button {
     overflow: hidden;
     height: 400px;
     width: 400px;
-
 }
 
 .container {
@@ -125,6 +132,22 @@ img {
         width: 40px;
         border-radius: 180px;
         margin: 10px;
+    }
+
+    .esquerdaR {
+        display: inline;
+    }
+    
+    .direitaR {
+        display: inline;
+    }
+
+    .esquerda {
+        display: none;
+    }
+    
+    .direita {
+        display: none;
     }
 
     /* TEXTOS */
